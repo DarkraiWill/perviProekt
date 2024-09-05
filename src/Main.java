@@ -174,6 +174,35 @@ public class Main {
 //            }
 //
 //        }
+//            Задача 18
 
+//        String str = scanner.nextLine().toLowerCase();
+//        String sogl = "оеаиуяыюэё";
+//        int cons = 0, vows = 0;
+//
+//        for (char c : str.toCharArray()) {
+//            if (c == ' ') {
+//                continue;
+//            }
+//            if (sogl.indexOf(c) != -1) vows++;
+//            else cons++;
+//        }
+//        System.out.println("Гласных: " + vows + "; coгласных: " + cons);
+//        Задача 19
+//        String str = scanner.nextLine();
+//        String[] word = str.split(" ");
+//        for(int i = word.length-1;i>=0;i--)
+//            System.out.print(word[i]+" ");
+//        Задача 20
+//        System.out.println("Введите число ");
+//        String str = scanner.nextLine();
+//        int num = Integer.parseInt(str);
+//        int a = 0;
+//        for(int i = 0;i<str.length();i++){
+//            a +=  Math.pow(Character.getNumericValue(str.charAt(i)), str.length());
+//        }
+//
+//        if(a == num) System.out.println("Армстронг");
+//        else System.out.println("Не армстронг");
     }
     }
